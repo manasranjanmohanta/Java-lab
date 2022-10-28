@@ -2,7 +2,7 @@ package assignment2;
 
 import java.util.Scanner;
 
-public class QuestionVi {
+public class Questionvi {
         public static void main(String[] args) {
             long num,rev=0,temp,backNum=0,frontNum=0,fntPos=0,backPos=0;
             int x,count=0;
