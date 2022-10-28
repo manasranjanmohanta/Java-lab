@@ -135,15 +135,6 @@ public class Question8 {
                 SGPA = totalCreXMark / (3 + 3 + 3 + 3);
                 System.out.printf("SGPA: %.2f", SGPA);
                 break;
-
-
-
-
-
-
-
-
-
         }
     }
 }
