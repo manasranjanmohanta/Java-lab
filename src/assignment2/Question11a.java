@@ -5,7 +5,7 @@ package assignment2;
 public class Question11a {
     public static void main(String[] args) {
         int evenCount = 0;
-        System.out.println("The even numbers taht ends with 0 and 4 are : ");
+        System.out.println("The even numbers that ends with 0 and 4 are : ");
         for (int i = 24; i < 249; i++) {
             if(i % 2 == 0){
                 if(i % 10 == 0 || i % 10 == 4){
