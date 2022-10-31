@@ -2,7 +2,7 @@
 //b) find difference between average of all odd numbers and even numbers
 package assignment2;
 
-public class Question12ii {
+public class Question12b {
     public static void main(String[] args) {
         int countEven = 0, countOdd = 0, evenSum = 0, oddSum = 0;
         float evenAvg, oddAvg, diff;

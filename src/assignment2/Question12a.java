@@ -2,7 +2,7 @@
 // Do not use array a) find difference between greatest and smallest number?
 package assignment2;
 
-public class Question12i {
+public class Question12a {
     public static void main(String[] args) {
       int greatest = Integer.parseInt(args[0]), smallest = Integer.parseInt(args[0]), diff;
 
