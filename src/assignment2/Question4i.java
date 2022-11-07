@@ -8,7 +8,7 @@ public class Question4i {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int x, n , evenSum = 0, oddSum = 0,evenPow = 1, oddPow = 1, fact = 1;
-        float result;
+        float result = 0;
 
         System.out.println("Enter the value of x : ");
         x = sc.nextInt();
@@ -38,8 +38,8 @@ public class Question4i {
                 fact = 1;
             }
 
-            result = 1 + oddSum -evenSum;
-            System.out.println("The result of the above series is : " + result);
+            result = 1 + oddSum - evenSum;
         }
+        System.out.println("The result of the above series is : " + result);
     }
 }

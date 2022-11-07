@@ -24,8 +24,14 @@ public class Question6 {
         if(count == 2){
             System.out.println(n1 + " is a prime number");
         }
-        if(rev == n1){
+        else {
+            System.out.println(n1 + " is not a prime number");
+        }
+        if(rev == n1) {
             System.out.println(n1 + " is a palindrome number");
+        }
+        else {
+            System.out.println(n1 + " is not a palindrome number");
         }
 
     }
