@@ -3,7 +3,7 @@
 package assignment3.array;
 
 import java.util.Scanner;
-public class Questiion6 {
+public class Question6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter elements of 3x3 matrix : ");
