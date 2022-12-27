@@ -2,30 +2,30 @@ package assignment4;
 
 import java.applet.Applet;
 import java.awt.*;
-//<applet code = Question11.class width = 800 height = 300> </applet>
-public class Question11 extends Applet implements Runnable {
+//<applet code=Question12.class width=400 height=600></applet>
+
+public class Question12 extends Applet implements Runnable {
     Thread t;
-    int x = 100;
-    int y = 100;
+    int x = 170;
+    int y = 50;
     public void start(){
         t = new Thread(this);
         t.start();
     }
 
     public void paint(Graphics g){
-        g.setColor(Color.green);
-        g.fillOval(x, y, 50, 50);
+        g.setColor(Color.blue);
+        g.fillRect(x, y, 50, 50);
     }
-
     public void run(){
         try {
-            while (true) {
-                if (x == 700) {
-                    x = 100;
-                    y = 100;
+            while(true){
+                if(y == 550){
+                    x = 170;
+                    y = 50;
                     repaint();
-                } else {
-                    x = x + 5 ;
+                } else{
+                    y = y + 5;
                     repaint();
                     Thread.sleep(100);
                 }
