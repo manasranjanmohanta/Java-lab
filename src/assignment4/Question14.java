@@ -101,7 +101,7 @@ class MyStudent extends JFrame{
         ch1 = new JCheckBox("Read");
         ch1.setBounds(570, 400, 70, 30);
         cn.add(ch1);
-        ch1 = new JCheckBox("Sex");
+        ch1 = new JCheckBox("Dance");
         ch1.setBounds(640, 400, 70, 30);
         cn.add(ch1);
 
