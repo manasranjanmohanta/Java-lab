@@ -11,6 +11,7 @@ class MyStudent extends JFrame{
     JCheckBox ch1, ch2, ch3;
     JTextField t1, t2, t3, t5, t6,  t8, t9, t10;
     JButton b1, b2;
+    ButtonGroup genderGroup;
 
     MyStudent(){
         cn = getContentPane();
@@ -89,6 +90,12 @@ class MyStudent extends JFrame{
         r2 = new JRadioButton("Female");
         r2.setBounds(600, 350, 100, 30);
         cn.add(r2);
+
+        genderGroup = new ButtonGroup();
+        genderGroup.add(r1);
+        genderGroup.add(r2);
+
+
 
 
         // for l8 and t8
